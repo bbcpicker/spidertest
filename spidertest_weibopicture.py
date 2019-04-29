@@ -73,7 +73,7 @@ def get_page(page):
         'Host': 'weibo.cn',
         'User-Agent':random.choice(user_agent),
         'upgrade-insecure-requests': '1', #随机切换模拟浏览器
-        'cookie': 'cookie: _T_WM=41174714830; ALF=1559051868; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhfCDI7Cxewj.v99eB._k0U5JpX5K-hUgL.Foz01K5cS0zfS0M2dJLoIpxbqEH8SC-RBE-4SEH8SCHFeF-415tt; SSOLoginState=1556459942; MLOGIN=1; SCF=Aj73M9WpNKqM6LNlaFSMdmBZACn7EleqxfRMHBUjUsZyaiw6g6hzjHY4mdNSOTsFtAW_I1CyFnjO-iZLnCNV7tA.; SUB=_2A25xwcH2DeRhGeRN4lIX9yzJzDuIHXVTTe--rDV6PUJbktAKLW_YkW1NU24dJp50aoh9nwt2U5uC9jdYcE7GSmsG; SUHB=0ftYNuH1mayMJo; M_WEIBOCN_PARAMS=luicode%3D10000012%26lfid%3D1078035582886728_-_photoall'
+        'cookie': '' # 自行添加自己的cookie
     }
 
     try:
